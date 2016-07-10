@@ -3,13 +3,12 @@
 #include<conio.h>
 void main()
 {
-int a,n,i=1,j,c=0;
-clrscr();
+int a,b,i=1,j,c=0;
 scanf("%d",&a);
-n=2*a;
-while(i<n)
+b=2*a;
+while(i<b)
 {
-for(j=i+1;j<=n;j++)
+for(j=i+1;j<=b;j++)
 {
 printf("%d%d\n",i,j);
 c++;
